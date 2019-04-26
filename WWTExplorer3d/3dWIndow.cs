@@ -1944,8 +1944,6 @@ namespace TerraViewer
 
         SpaceNavigator._3DxMouse myMouse;
 
-        int spaceDeviceType = 0;
-
         bool InitSpaceNavigator()
         {
             try
@@ -20981,7 +20979,6 @@ namespace TerraViewer
         const double lngMin = -180;
         const double lngMax = 180;
         const double dGrid = 10;
-        int iCount = (int)((((latMax - latMin) / dGrid) * ((lngMax - lngMin) / dGrid) * 6));
   
         int triangleCount = subDivisionsX * subDivisionsY * 2;
 

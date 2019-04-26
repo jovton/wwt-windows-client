@@ -176,7 +176,7 @@ namespace TerraViewer
 
                 return new Texture11(texture);
             }
-            catch (Exception e)
+            catch
             {
                 try
                 {

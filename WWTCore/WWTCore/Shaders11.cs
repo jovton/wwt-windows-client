@@ -649,9 +649,6 @@ namespace TerraViewer
 
         private void BuildShader(string vertexProfile, string pixelProfile)
         {
-            // Just the defaults right now...
-            ShaderFlags shaderFlags = 0;
-
             PlanetSurfaceStyle style = key.style;
             System.Console.WriteLine("Building shader: " + key.ToString());
 
@@ -1457,7 +1454,6 @@ namespace TerraViewer
     {
         private static ShaderLibrary instance = InitShaderLibrary();
         private Dictionary<string, byte[]> compiledShaders;
-        private bool AttemptedLoadingPrecompiledShaders = false;
 
         public struct ShaderLevel
         {
