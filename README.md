@@ -11,3 +11,5 @@ Source code for the WorldWide Telescope web client, and for the supporting websi
 * https://github.com/WorldWideTelescope/wwt-website
 
 [WorldWide Telescope](http://worldwidetelescope.org) is a [.NET Foundation](http://dotnetfoundation.org) project
+
+[![Build Status](https://dev.azure.com/jovton1/wwt-windows-client/_apis/build/status/jovton.wwt-windows-client?branchName=master)](https://dev.azure.com/jovton1/wwt-windows-client/_build/latest?definitionId=1&branchName=master)
