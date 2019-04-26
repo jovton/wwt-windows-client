@@ -2,14 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using ShapefileTools;
 using System.Drawing;
-using System.Data;
 using System.IO;
 using System.Globalization;
 using System.Windows.Forms;
-using Microsoft.SqlServer.Types;
-using System.Data.SqlTypes;
 using System.Xml;
 using System.Net;
 
